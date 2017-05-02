@@ -12,6 +12,7 @@ library
   hs-source-dirs:      src
   exposed-modules:     HelloWorld
                        , ListKata.Extract
+                       , TuplesKata.Basic
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
