@@ -20,3 +20,6 @@ spec = do
       zip [1,2] ['a'..'c'] `shouldBe` [(1,'a'), (2,'b')]
       zip [1..3] ['a'..'b'] `shouldBe` [(1,'a'), (2,'b')]
       zip [1..] ["cat", "dog", "bird"] `shouldBe` [(1,"cat"), (2,"dog"), (3,"bird")]
+  describe "pythagorean triples" $ do
+    it "useful representation as a 3-tuple" $
+      take 2 pythagorean `shouldBe` [(3,4,5), (6,8,10)]
